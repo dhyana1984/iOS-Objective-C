@@ -15,12 +15,16 @@ NS_ASSUME_NONNULL_BEGIN
     int numerator;
     int denominator;
 }
+@property int numerator,denominator;
 -(void) print;
--(void) setNumerator: (int) n;
--(void) setDenominator: (int) d;
--(int) numerator;
--(int) denominator;
+-(void) setTo: (int) n over:(int) d;
+//-(void) setNumerator: (int) n;
+//-(void) setDenominator: (int) d;
+//-(int) numerator;
+//-(int) denominator;
 -(double) convertToNum;
+-(void) add: (Fraction *) f;
+-(void) reduce;
 @end
 
 NS_ASSUME_NONNULL_END
