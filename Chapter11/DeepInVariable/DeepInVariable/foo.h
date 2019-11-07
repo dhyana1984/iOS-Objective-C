@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface foo : NSObject
-
+@interface Foo : NSObject
+-(void) setgGlobalVar :(int) val;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "foo.h"
+int gGlobalVar = 5;
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Foo *myFoo = [[Foo alloc] init];
+        NSLog(@"%i", gGlobalVar);
+        [myFoo setgGlobalVar:100];
+        NSLog(@"%i",gGlobalVar);
     }
     return 0;
 }
