@@ -10,8 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSNumber_fk : NSObject
-
+//为NSNumber定义fk类别
+@interface NSNumber(fk)
+-(NSNumber*) add :(double) num2;
+-(NSNumber*) substract :(double) num2;
+-(NSNumber*) multiply :(double) num2;
+-(NSNumber*) divide :(double) num2;
 @end
 
 NS_ASSUME_NONNULL_END
