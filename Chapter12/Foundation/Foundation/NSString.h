@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString : NSObject
-
+@interface NSStringFunctions : NSObject
+-(void) NSStringOperation;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSStringFunctions* nsstring = [[NSStringFunctions alloc] init];
+        [nsstring NSStringOperation];
+        
+        
     }
     return 0;
 }
