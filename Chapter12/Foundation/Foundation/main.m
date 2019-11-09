@@ -7,12 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSString.h"
+#import "NSStringFunction.h"
+#import "NSArrayFunction.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSStringFunctions* nsstring = [[NSStringFunctions alloc] init];
-        [nsstring NSStringOperation];
+//        NSString操作
+//        NSStringFunctions* nsstring = [[NSStringFunctions alloc] init];
+//        [nsstring NSStringOperation];
+//        NSArray操作
+        NSArrayFunction *nsarray = [[NSArrayFunction alloc] init];
+        [nsarray NSArrayFunction];
+        
         
         
     }

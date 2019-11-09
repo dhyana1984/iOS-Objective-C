@@ -6,7 +6,7 @@
 //  Copyright © 2019 org.chris. All rights reserved.
 //
 
-#import "NSString.h"
+#import "NSStringFunction.h"
 
 @implementation NSStringFunctions
 -(void) NSStringOperation{
