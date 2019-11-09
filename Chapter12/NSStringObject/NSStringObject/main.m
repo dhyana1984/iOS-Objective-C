@@ -7,26 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FKUser.h"
+#import "NSStringFunction.h"
 
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSArray *array = @[
-            [[FKUser alloc] initWithName:@"sun" pass:@"123"],
-            [[FKUser alloc] initWithName:@"aac" pass:@"453"],
-            [[FKUser alloc] initWithName:@"svh" pass:@"427"],
-            [[FKUser alloc] initWithName:@"jfs" pass:@"734"],
-            [[FKUser alloc] initWithName:@"rtf" pass:@"256"],
-        ];
-//        对数组元素整体调用方法
-        [array makeObjectsPerformSelector:@selector(say:)  withObject:@"下午好，NSArry牛逼！"];
-        NSString *content = @"iOS开发指南";
-        
-        [array enumerateObjectsAtIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(2, 2)] options:NSEnumerationReverse usingBlock:^(id obj, NSUInteger idx, BOOL *stop){
-            NSLog(@"正在处理第%lu个元素：%@",(unsigned long)idx,obj);
-            [obj say:content];
-        }];
+//      NSString操作
+        NSStringFunction* nsstring = [[NSStringFunction alloc] init];
+        [nsstring NSStringOperation];
     }
     return 0;
 }

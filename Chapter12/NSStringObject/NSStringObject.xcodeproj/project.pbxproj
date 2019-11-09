@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		839F5D8623772C0B00C0DDD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F5D8523772C0B00C0DDD1 /* main.m */; };
-		839F5D8E23772C3200C0DDD1 /* FKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F5D8D23772C3200C0DDD1 /* FKUser.m */; };
+		839F5DA7237734A100C0DDD1 /* NSStringFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F5DA6237734A100C0DDD1 /* NSStringFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		839F5D8223772C0B00C0DDD1 /* NSStringObject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSStringObject; sourceTree = BUILT_PRODUCTS_DIR; };
 		839F5D8523772C0B00C0DDD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		839F5D8C23772C3200C0DDD1 /* FKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKUser.h; sourceTree = "<group>"; };
-		839F5D8D23772C3200C0DDD1 /* FKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKUser.m; sourceTree = "<group>"; };
+		839F5DA5237734A100C0DDD1 /* NSStringFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringFunction.h; sourceTree = "<group>"; };
+		839F5DA6237734A100C0DDD1 /* NSStringFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringFunction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				839F5D8523772C0B00C0DDD1 /* main.m */,
-				839F5D8C23772C3200C0DDD1 /* FKUser.h */,
-				839F5D8D23772C3200C0DDD1 /* FKUser.m */,
+				839F5DA5237734A100C0DDD1 /* NSStringFunction.h */,
+				839F5DA6237734A100C0DDD1 /* NSStringFunction.m */,
 			);
 			path = NSStringObject;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				839F5D8623772C0B00C0DDD1 /* main.m in Sources */,
-				839F5D8E23772C3200C0DDD1 /* FKUser.m in Sources */,
+				839F5DA7237734A100C0DDD1 /* NSStringFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

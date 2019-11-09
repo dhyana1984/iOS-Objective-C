@@ -8,7 +8,7 @@
 
 #import "NSStringFunction.h"
 
-@implementation NSStringFunctions
+@implementation NSStringFunction
 -(void) NSStringOperation{
     unichar data[6] = {97, 98, 99, 100, 101, 102};
     NSString* str = [[NSString alloc] initWithCharacters:data length:6];

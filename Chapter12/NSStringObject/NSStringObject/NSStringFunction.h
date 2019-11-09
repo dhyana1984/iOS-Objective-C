@@ -1,8 +1,8 @@
 //
-//  NSString.h
-//  Foundation
+//  NSStringFunction.h
+//  NSStringObject
 //
-//  Created by Chris Xiong on 2019/11/9.
+//  Created by Chris Xiong on 2019/11/10.
 //  Copyright © 2019 org.chris. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSStringFunctions : NSObject
+@interface NSStringFunction : NSObject
 -(void) NSStringOperation;
 @end
 
